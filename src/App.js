@@ -12,13 +12,14 @@ import About from './components/Pages/About';
 import Updateform from './components/Pages/Updateform';
 
 class App extends Component {
+
+  // render
   render() {
     return (
       <Router>
         <div className="App">
       <Header/>
       
-
       <Route exact path ='/' component = {Updateform} />
       <Route exact path ='/Home' component = {Homepage} />
       <Route exact path ='/About' component = {About} />
