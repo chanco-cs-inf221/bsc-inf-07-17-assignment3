@@ -1,0 +1,39 @@
+
+    input[type=text], select {
+        background-color: aliceblue;
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+textarea {
+        background-color: aliceblue;
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding:  10px;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 45%;
+	margin-right: 45%;
+	margin-bottom: 5px;
+	border-radius: 7px;
+    cursor: pointer;
+}
